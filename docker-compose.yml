@@ -1,0 +1,6 @@
+services:
+  my-ip-api:
+    build: .
+    #image: avmesquita/please-get-my-ip:typescript
+    ports:
+      - 9977:9977
